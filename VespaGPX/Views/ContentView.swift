@@ -30,7 +30,7 @@ struct ContentView: View {
                     Tab("Activities", systemImage: "road.lanes") {
                         ActivityListView()
                     }
-                    Tab("Vehicles", systemImage: "motorcycle.fill") {
+                    Tab("Vehicles", systemImage: "moped.fill") {
                         VehiclesView()
                     }
                     Tab("Rider", systemImage: "person.fill") {
