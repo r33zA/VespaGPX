@@ -28,9 +28,9 @@ struct ActivityRowView: View {
         HStack(spacing: 14) {
             Image(systemName: "map.fill")
                 .font(.title3)
-                .foregroundStyle(.tint)
+                .foregroundStyle(Color.accentColor)
                 .frame(width: 38, height: 38)
-                .background(.tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 10))
+                .background(Color.accentColor.opacity(0.12), in: RoundedRectangle(cornerRadius: 10))
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(rideDate?.formatted(.dateTime.weekday(.wide).day().month(.abbreviated).year()) ?? "Unknown date")
